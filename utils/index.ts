@@ -1,6 +1,6 @@
 import { CarProps, FilterProps } from "../types";
 
-import CAR_API_KEY from './apikey.js';
+import CAR_API_KEY from '../apikey.js';
 
 export const calculateCarRent = (city_mpg: number, year: number) => {
   const basePricePerDay = 50; // Base rental price per day in dollars
